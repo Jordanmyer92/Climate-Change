@@ -1,0 +1,59 @@
+﻿CREATE TABLE "access_electric_avg" (
+    "country_name" VARCHAR   NOT NULL,
+    "average_access_to_electricity" NUMERIC   NULL
+);
+
+CREATE TABLE "ag_land_avg" (
+    "country_name" VARCHAR   NOT NULL,
+    "average_agricultural" NUMERIC    NULL
+);
+
+CREATE TABLE "arable_land_avg" (
+    "country_name" VARCHAR   NOT NULL,
+    "average_arable_land" NUMERIC    NULL
+);
+
+CREATE TABLE "c02_gas_avg" (
+    "country_name" VARCHAR   NOT NULL,
+    "average_cO2_emissions_from_gaseous_fuel_consumption" NUMERIC    NULL
+);
+
+CREATE TABLE "c02_liquid_avg" (
+    "country_name" VARCHAR   NOT NULL,
+    "average_cO2_emissions_from_liquid_fuel_consumption" NUMERIC    NULL
+);
+
+CREATE TABLE "c02_solid_avg" (
+    "country_name" VARCHAR   NOT NULL,
+    "average_cO2_emissions_from_solid_fuel_consumption" NUMERIC    NULL
+);
+
+CREATE TABLE "electric_oil_avg" (
+    "country_name" VARCHAR   NOT NULL,
+    "average_electricity_production_from_oil_sources" NUMERIC   NULL
+);
+
+CREATE TABLE "forest_area_avg" (
+    "country_name" VARCHAR   NOT NULL,
+    "average_forest_area" NUMERIC    NULL
+);
+
+CREATE TABLE "methane_avg" (
+    "country_name" VARCHAR   NOT NULL,
+    "average_methane_oxide_emissions" NUMERIC    NULL
+);
+
+CREATE TABLE "other_greenhouse_gas_avg" (
+    "country_name" VARCHAR   NOT NULL,
+    "average_other_greenhouse_gas_emissions" NUMERIC    NULL
+);
+	
+CREATE TABLE "pop_growth_avg" (
+    "country_name" VARCHAR   NOT NULL,
+    "average_population_growth" NUMERIC    NULL
+);
+			
+CREATE TABLE "total_greenhouse_gas_avg" (
+    "country_name" VARCHAR   NOT NULL,
+    "average_total_greenhouse_gas_emissions" NUMERIC    NULL
+);
