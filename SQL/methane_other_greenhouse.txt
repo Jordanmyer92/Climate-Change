@@ -1,0 +1,3 @@
+SELECT * 
+FROM methane_avg
+JOIN other_greenhouse_gas_avg ON methane_avg.country_name = other_greenhouse_gas_avg.country_name;

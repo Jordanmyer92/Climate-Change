@@ -1,0 +1,3 @@
+SELECT *
+FROM forest_area_avg
+JOIN pop_growth_avg ON forest_area_avg.country_name = pop_growth_avg.country_name;
